@@ -6,6 +6,7 @@ import { FaFacebook } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { useEffect, useState } from 'react';
+import aboutimg from '../assets/me/aboutimg22.jpg'
 
 import Aos from 'aos';
 import 'aos/dist/aos.css'
@@ -29,7 +30,7 @@ function About() {
         <div className="row">
             <div data-aos="zoom-in" className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 aboutimgcol">
                 <div className='aboutimgdiv'>
-                    <img src="src\assets\me\aboutimg22.jpg" className='img-fluid' alt="" />
+                    <img src={aboutimg} className='img-fluid' alt="" />
                 </div>
             </div>
 
