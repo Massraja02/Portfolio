@@ -7,6 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+import myimg from '../assets/me/homeimg.png;
 
 function Footer() {
   return (
@@ -14,7 +15,7 @@ function Footer() {
         <div className="row">
             <div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 footermee">
                <span>
-                <img src="src\assets\me\homeimg.png" alt="" />
+                <img src={myimg} alt="" />
                 <h1>Raja..</h1>
                 </span>
                 <p>Thank you for visiting my portfolio. I appreciate your time and interest!. If you have any questions or would like to collaborate, feel free to reach out.</p>
