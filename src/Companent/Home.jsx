@@ -65,7 +65,7 @@ function Home() {
 
             <div data-aos="zoom-in" className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 homeimgcol">
                 <div className='homeimgdiv'>
-                <img src="https://github.com/Massraja02/Portfolio/blob/a4592e7b3eede6e0b1149162a499ffae3392c04e/src/assets/me/homeimg.png" alt=""/>
+                <img src="./src/assets/me/homeimg.png" alt=""/>
 
                 <img src="../assets/svg/react-svgrepo-com.svg" alt="" />
                 <img src="../assets/svg/node-js-svgrepo-com.svg" alt="" />
