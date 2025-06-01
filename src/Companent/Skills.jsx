@@ -8,7 +8,7 @@ import phpimg from '../assets/svg/php-svgrepo-com.svg'
 import sqlimg from '../assets/svg/sql-database-sql-azure-svgrepo-com.svg'
 import javaimg from '../assets/svg/java-svgrepo-com.svg'
 import pythonimg from '../assets/svg/python-svgrepo-com.svg'
-import bootstrap from '../assets/svg/bootstrap-fill-svgrepo-com.svg'
+import bootstrapimg from '../assets/svg/bootstrap-fill-svgrepo-com.svg'
 
 import Aos from 'aos';
 import 'aos/dist/aos.css'
