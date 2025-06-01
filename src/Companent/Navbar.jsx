@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './Navbar.css'
+import navimg from '../assets/me/homeimg.png'
+
 function Navbar() {
     const [icons,seticons] = useState(true);
 
@@ -22,7 +24,7 @@ function Navbar() {
                }
             </div>
             <div className="col-7 col-sm-8 col-md-8 col-lg-2  logobox ">
-                <a href="#"><img src="src\assets\me\homeimg.png" alt="" /> </a>
+                <a href="#"><img src={navimg} alt="" /> </a>
                 <a href="#"> <h1>Raja</h1> </a>
                 
             </div>
