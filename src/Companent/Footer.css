@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Jaini&family=Kaushan+Script&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&family=Ultra&display=swap');
+
+.footercontainer
+{
+  background: #232526;
+  background: linear-gradient(
+    to right,
+    #232526,#414345
+  );
+
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.footermee
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.footermee span
+{
+    padding: 10px 0px;
+   display: flex;
+   justify-content:center;
+   align-items:center;
+}
+.footermee span svg
+{
+    color: blue;
+}
+.footermee img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.footermee h1
+{
+    margin: 0px 0px 0px 5px;
+}
+.footermee p
+{
+    text-align: justify;
+    margin: 0px;
+    padding: 5px;
+}
+.footerabout
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+} 
+.footerabout h3
+{
+    text-align: center;
+}
+ .footerabout h5
+ {
+    font-size: 16px;
+    margin: 20px 0px;
+     display: flex;
+     align-items: center;
+ }
+ .footerabout span
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+.footerabout svg
+{
+    font-size: 20px;
+}
+.footeraddressptag
+{
+    text-align: justify;
+}
+ .footerabout p
+ {
+    margin: 0px 0px 0px 10px;
+
+ }
+.footernavlinks
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+.footerhelp
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+.footerprivacydiv
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footerprivacydiv p
+{
+    margin: 0px;
+}
+.footersocialmediadiv
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.footersocialmediadiv ul
+{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footersocialmediadiv li
+{
+    list-style: none;
+}
+.footersocialmediadiv .whatsapp
+{
+    color: rgb(25, 255, 8);
+}
+.footersocialmediadiv .instagram
+{
+    color: rgb(255, 3, 158);
+}
+.footersocialmediadiv .facebook
+{
+    color: rgb(5, 142, 255);
+}
+.footersocialmediadiv .twitter
+{
+    color: rgb(255, 255, 255);
+}
+.footersocialmediadiv .linkin
+{
+    color: rgb(1, 120, 255);
+}
+.footercopyright
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+.footercopyright p
+{
+        margin: 0px;
+}

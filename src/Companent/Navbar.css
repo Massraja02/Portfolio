@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Jaini&family=Kaushan+Script&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&family=Ultra&display=swap');
+
+
+.navbarcontainer
+{
+    padding: 0px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 12;
+    background-color: rgb(40, 39, 39);
+}
+.containerrow
+{
+    margin: 0px;
+    padding: 0px;
+}
+.toggleicondiv
+{
+    display: none;
+}
+.toggleicondiv i
+{
+    color: #60d394;
+}
+.logobox
+{
+    padding: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logobox a
+{
+    text-decoration: none;
+}
+.logobox img
+{
+    padding: 5px 0px;
+    border-radius: 50%;
+    width: 60px;
+    height: 70px;
+}
+.logobox h1
+{
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin: 0px 0px 0px 5px;
+    color: whitesmoke;
+}
+.navbardiv
+{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbardiv ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+.navbardiv ul li
+{
+    list-style: none;
+    padding: 5px 10px;
+}
+.navbardiv li:hover
+{
+    border-bottom: 3px solid  rgb(184, 15, 15);
+}
+.navbardiv ul li a
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.resumebtndiv
+{
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.resumebtn
+{
+    color: white;
+    background-color: #60d394;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border-radius: 20px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+.resumebtndiv a
+{
+    text-decoration: none;
+    color: white;
+    width: 60%;
+    height: 60%;
+}
+.hidenavbar
+{
+    display: none;
+}
+.shownavbar
+{
+    position: absolute;
+    left: 0px;
+    background-color: rgb(40, 39, 39);
+    width: 100%;
+}
+
+.shownavbar ul
+{
+    padding: 0px;
+    margin: 0px;
+}
+.shownavbar li
+{
+    text-align: center;
+    padding: 5px;
+    list-style: none;
+
+}
+.shownavbar li:hover
+{
+    background-color:rgb(224, 72, 72) ;
+
+
+}
+.shownavbar li a
+{
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.shownavbar li a:hover
+{
+    color: rgb(0, 0, 0);
+    /* padding-left: 10px;
+    border-left: 5px solid rgb(255, 247, 0); */
+
+}
+
+
+
+/* Media Querry for Tv device */
+
+@media screen and (min-width: 1600px)
+{
+    .navbarcontainer
+    {
+        margin: 0px 145px;
+        width: 82%;
+    }
+}
+
+
+
+
+/* Media Querry for tablet and mobile device  */
+
+@media screen and (max-width:991px){
+    .toggleicondiv
+    {
+        padding: 0px;
+        display: block;
+    }
+    .toggleicondiv i
+    {
+        font-size: 50px;
+    }
+    .logobox
+    {
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logobox img
+    {
+        padding: 2px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+    .navbardiv
+    {
+       display: none;
+    }
+    .resumebtndiv
+    {
+        padding: 0px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .resumebtndiv a
+{
+    border-radius: 20px;
+    padding: 0px;
+    width: 100%;
+    height: 60%;
+}
+}

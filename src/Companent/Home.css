@@ -1,0 +1,932 @@
+.homecontainer
+{
+background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: "Ancizar Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  min-height: 100vh;
+}
+.homecontentcol
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.homecontentcol h1:nth-child(1)
+{
+    color: rgb(255, 255, 4);
+    font-size: 70px;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+.homecontentcol h1:nth-child(2)
+{
+    color: rgb(255, 255, 255);
+    font-size: 110px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+.homecontentcol h1:nth-child(3)  
+{
+    display: flex;
+    color: rgb(0, 255, 255);
+    font-size: 50px;
+}
+.homecontentcol .Typewriter span
+{
+    margin-left: 10px;
+}
+.homecontentcol p
+{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.homecontentcol button
+{
+    border-radius: 20px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    background-color: rgba(15, 255, 2, 0.897);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    width: 130px;
+}
+
+/* Css for image colum */
+
+.homeimgcol
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+.homeimgdiv
+{
+    position: relative;
+}
+.homeimgcol img:nth-child(1)
+{
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+}
+.homeimgcol img:nth-child(2)
+{
+    animation: zooms 2s ease-in-out infinite;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+    padding: 5px;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+}
+@keyframes zooms
+{
+0%
+{
+    transform: scale(0.9);
+}
+50%
+{
+    transform: scale(1.1);
+}
+100%
+{
+    transform: scale(0.9);
+}
+}
+.homeimgcol img:nth-child(3)
+{
+    animation: zooms 2s ease-in-out infinite;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+    padding: 5px;
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    width: 80px;
+    height: 80px;
+}
+.homeimgcol img:nth-child(4)
+{
+    animation: zooms 2s ease-in-out infinite;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+    padding: 5px;
+    position: absolute;
+    bottom: 80px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+}
+.homeimgcol img:nth-child(5)
+{
+    animation: zooms 2s ease-in-out infinite;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+    padding: 5px;
+    position: absolute;
+    bottom: 80px;
+    right: 10px;
+    width: 80px;
+    height: 80px;
+}
+.clicktopbox svg
+{
+    z-index: 88888;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: rgb(37, 173, 46);
+    border-radius: 50%;
+    border: 2px solid rgb(3, 255, 7);
+    padding: 10px;
+}
+.clicktopbox svg:hover
+{
+        background-color: rgb(42, 226, 54);
+}
+
+
+
+
+/* Media Querry for XXXL Device */
+
+@media screen and (min-width: 1600px)
+{
+    .homecontainer
+    {
+        margin: 0px 145px;
+        width: 82%;
+        min-height: 100%;
+    }
+    .homecontentcol h1:nth-child(1)
+    {
+        font-size: 90px;
+        letter-spacing: 3px;
+    }
+    .homecontentcol h1:nth-child(2)
+    {
+        font-size: 130px;
+        letter-spacing: 10px;
+    }
+    .homecontentcol h1:nth-child(3)  
+    {
+        font-size: 60px;
+    }
+    .homecontentcol p
+    {
+        font-size: 20px;
+    }
+    .homecontentcol button
+    {
+        letter-spacing: 3px;
+        font-size: 25px;
+        width: 150px;
+    }
+    .homeimgcol img:nth-child(1)
+    {
+        width: 650px;
+        height: 650px;
+        margin: 5px;
+    }
+    .homeimgcol img:nth-child(2)
+    {
+        position: absolute;
+        top: 90px;
+        left: 10px;
+        width: 100px;
+        height: 100px;
+    }
+    .homeimgcol img:nth-child(3)
+    {
+        position: absolute;
+        top: 90px;
+        right: 10px;
+        width: 100px;
+        height: 100px;
+    }
+    .homeimgcol img:nth-child(4)
+    {
+        position: absolute;
+        bottom: 90px;
+        left: 10px;
+        width: 100px;
+        height: 100px;
+    }
+    .homeimgcol img:nth-child(5)
+    {
+        position: absolute;
+        bottom: 90px;
+        right: 10px;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+/* Media Querry for XXL Device */
+
+@media screen and (min-width: 1400px) and (max-width: 1599px)
+{
+.homecontentcol h1:nth-child(1)
+    {
+        font-size: 90px;
+        letter-spacing: 3px;
+    }
+    .homecontentcol h1:nth-child(2)
+    {
+        font-size: 130px;
+        letter-spacing: 10px;
+    }
+    .homecontentcol h1:nth-child(3)  
+    {
+        font-size: 60px;
+    }
+    .homecontentcol p
+    {
+        font-size: 20px;
+    }
+    .homecontentcol button
+    {
+        letter-spacing: 3px;
+        font-size: 25px;
+        width: 150px;
+    }
+    .homeimgcol img:nth-child(1)
+    {
+        width: 650px;
+        height: 650px;
+    }
+    .homeimgcol img:nth-child(2)
+    {
+        position: absolute;
+        top: 90px;
+        left: 10px;
+        width: 100px;
+        height: 100px;
+    }
+    .homeimgcol img:nth-child(3)
+    {
+        position: absolute;
+        top: 90px;
+        right: 10px;
+        width: 100px;
+        height: 100px;
+    }
+    .homeimgcol img:nth-child(4)
+    {
+        position: absolute;
+        bottom: 90px;
+        left: 10px;
+        width: 100px;
+        height: 100px;
+    }
+    .homeimgcol img:nth-child(5)
+    {
+        position: absolute;
+        bottom: 90px;
+        right: 10px;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+/* Media Querry for LG Device */
+
+@media screen and (min-width: 992px) and (max-width: 1199px)
+{ 
+    .homecontainer
+    {
+        min-height: 100%;
+    }
+    .homecontentcol h1:nth-child(1)
+    {
+        font-size: 60px;
+    }
+    .homecontentcol h1:nth-child(2)
+    {
+        font-size: 100px;
+    }
+    .homecontentcol h1:nth-child(3)  
+    {
+        font-size: 40px;
+    }
+    .homecontentcol p
+    {
+        font-size: 18px;
+    }
+    .homecontentcol button
+    {
+        border-radius: 20px;
+        letter-spacing: 0px;
+        font-size: 18px;
+        width: 110px;
+    }
+    .homeimgcol img:nth-child(1)
+    {
+        width: 470px;
+        height: 470px;
+        margin: 5px;
+    }
+    .homeimgcol img:nth-child(2)
+    {
+        position: absolute;
+        top: 70px;
+        left: 10px;
+        width: 70px;
+        height: 70px;
+    }
+    .homeimgcol img:nth-child(3)
+    {
+        position: absolute;
+        top: 70px;
+        right: 10px;
+        width: 70px;
+        height: 70px;
+    }
+    .homeimgcol img:nth-child(4)
+    {
+        position: absolute;
+        bottom: 80px;
+        left:10px;
+        width: 70px;
+        height: 70px;
+    }
+    .homeimgcol img:nth-child(5)
+    {
+        position: absolute;
+        bottom: 80px;
+        right: 10px;
+        width: 70px;
+        height: 70px;
+    }
+
+
+}
+
+
+/* Media Querry for Tablet Device */
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+        .homecontainer
+    {
+        min-height: 100%;
+    }
+    .homecontentcol
+    {
+        align-items: center;
+    }
+    .homecontentcol h1:nth-child(1)
+    {
+        font-size: 80px;
+    }
+    .homecontentcol h1:nth-child(2)
+    {
+        font-size: 120px;
+    }
+    .homecontentcol h1:nth-child(3)  
+    {
+        font-size: 40px;
+    }
+
+    .homecontentcol p
+    {
+        text-align: center;
+        font-size: 20px;
+    }
+    .homecontentcol button
+    {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+     .homeimgcol img:nth-child(1)
+    {
+        width: 600px;
+        height: 600px;
+        margin: 20px 0px;
+    }
+    .homeimgcol img:nth-child(2)
+    {
+        position: absolute;
+        top: 100px;
+        left: 10px;
+        width: 100px;
+        height: 100px;
+    }
+    .homeimgcol img:nth-child(3)
+    {
+
+        position: absolute;
+        top: 100px;
+        right: 10px;
+        width: 100px;
+        height: 100px;
+    }
+    .homeimgcol img:nth-child(4)
+    {
+        position: absolute;
+        bottom: 100px;
+        left: 10px;
+        width: 100px;
+        height: 100px;
+    }
+    .homeimgcol img:nth-child(5)
+    {
+        position: absolute;
+        bottom:100px;
+        right: 10px;
+        width: 100px;
+        height: 100px;
+    } 
+
+
+}
+
+
+/* Media Querry for SM Device */
+
+@media screen and (min-width: 576px) and (max-width: 767px)
+{
+    .homecontentcol
+    {
+        align-items: center;
+    }
+    .homecontentcol h1:nth-child(1)
+    {
+        font-size: 70px;
+    }
+    .homecontentcol h1:nth-child(2)
+    {
+        font-size: 110px;
+    }
+    .homecontentcol h1:nth-child(3)  
+    {
+        font-size: 40px;
+    }
+
+    .homecontentcol p
+    {
+        text-align: center;
+        font-size: 20px;
+    }
+    .homecontentcol button
+    {
+        margin-top: 10px;
+    }
+
+     .homeimgcol img:nth-child(1)
+    {
+        width: 550px;
+        height: 550px;
+        margin: 20px 0px;
+    }
+    .homeimgcol img:nth-child(2)
+    {
+        position: absolute;
+        top: 90px;
+        left: 10px;
+        width: 90px;
+        height: 90px;
+    }
+    .homeimgcol img:nth-child(3)
+    {
+        position: absolute;
+        top: 90px;
+        right: 10px;
+        width: 90px;
+        height: 90px;
+    }
+    .homeimgcol img:nth-child(4)
+    {
+        position: absolute;
+        bottom: 100px;
+        left: 10px;
+        width: 90px;
+        height: 90px;
+    }
+    .homeimgcol img:nth-child(5)
+    {
+        position: absolute;
+        bottom:100px;
+        right: 10px;
+        width: 90px;
+        height: 90px;
+    } 
+
+
+}
+
+
+/* Media Querry for Small Mobile Device */
+
+@media screen and (max-width: 575px)
+{
+    .homecontentcol
+    {
+        align-items: center;
+    }
+    .homecontentcol h1:nth-child(1)
+    {
+        font-size: 40px;
+    }
+    .homecontentcol h1:nth-child(2)
+    {
+        font-size: 80px;
+    }
+    .homecontentcol h1:nth-child(3)  
+    {
+        font-size: 30px;
+    }
+
+    .homecontentcol p
+    {
+        text-align: center;
+        font-size: 16px;
+    }
+    .homecontentcol button
+    {
+        margin-top: 10px;
+    }
+
+     .homeimgcol img:nth-child(1)
+    {
+        width: 400px;
+        height: 400px;
+        margin: 20px 0px;
+    }
+    .homeimgcol img:nth-child(2)
+    {
+        position: absolute;
+        top: 70px;
+        left: 10px;
+        width: 70px;
+        height: 70px;
+    }
+    .homeimgcol img:nth-child(3)
+    {
+        position: absolute;
+        top: 70px;
+        right: 10px;
+        width: 70px;
+        height: 70px;
+    }
+    .homeimgcol img:nth-child(4)
+    {
+        position: absolute;
+        bottom: 70px;
+        left: 10px;
+        width: 70px;
+        height: 70px;
+    }
+    .homeimgcol img:nth-child(5)
+    {
+        position: absolute;
+        bottom: 70px;
+        right: 10px;
+        width: 70px;
+        height: 70px;
+    } 
+
+
+}
+
+
+@media screen and (max-width: 425px)
+{
+    .homecontentcol h1:nth-child(1)
+    {
+        font-size: 40px;
+    }
+    .homecontentcol h1:nth-child(2)
+    {
+        font-size: 70px;
+    }
+    .homecontentcol h1:nth-child(3)  
+    {
+        font-size: 30px;
+    }
+
+    .homecontentcol p
+    {
+        font-size: 16px;
+    }
+     .homeimgcol img:nth-child(1)
+    {
+        width: 370px;
+        height: 370px;
+    }
+    .homeimgcol img:nth-child(2)
+    {
+        position: absolute;
+        top: 70px;
+        left: 10px;
+        width: 60px;
+        height: 60px;
+    }
+    .homeimgcol img:nth-child(3)
+    {
+        position: absolute;
+        top: 70px;
+        right: 10px;
+        width: 60px;
+        height: 60px;
+    }
+    .homeimgcol img:nth-child(4)
+    {
+        position: absolute;
+        bottom: 70px;
+        left: 10px;
+        width: 60px;
+        height: 60px;
+    }
+    .homeimgcol img:nth-child(5)
+    {
+        position: absolute;
+        bottom: 70px;
+        right: 10px;
+        width: 60px;
+        height: 60px;
+    } 
+
+
+}
+
+@media screen and (max-width: 375px)
+{
+    .homecontentcol h1:nth-child(1)
+    {
+        font-size: 30px;
+    }
+    .homecontentcol h1:nth-child(2)
+    {
+        font-size: 60px;
+    }
+    .homecontentcol h1:nth-child(3)  
+    {
+        font-size: 25px;
+    }
+
+    .homecontentcol p
+    {
+        font-size: 14px;
+    }
+     .homeimgcol img:nth-child(1)
+    {
+        width: 300px;
+        height: 300px;
+    }
+    .homeimgcol img:nth-child(2)
+    {
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        width: 50px;
+        height: 50px;
+    }
+    .homeimgcol img:nth-child(3)
+    {
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        width: 50px;
+        height: 50px;
+    }
+    .homeimgcol img:nth-child(4)
+    {
+        position: absolute;
+        bottom: 60px;
+        left: 0px;
+        width: 50px;
+        height: 50px;
+    }
+    .homeimgcol img:nth-child(5)
+    {
+        position: absolute;
+        bottom: 60px;
+        right: 0px;
+        width: 50px;
+        height: 50px;
+    } 
+
+
+}
+
+@media screen and (max-width: 320px)
+{
+    .homecontentcol h1:nth-child(1)
+    {
+        font-size: 20px;
+    }
+    .homecontentcol h1:nth-child(2)
+    {
+        font-size: 40px;
+    }
+    .homecontentcol h1:nth-child(3)  
+    {
+        font-size: 20px;
+    }
+
+    .homecontentcol p
+    {
+        font-size: 12px;
+    }
+     .homeimgcol img:nth-child(1)
+    {
+        width: 250px;
+        height: 250px;
+    }
+    .homeimgcol img:nth-child(2)
+    {
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    .homeimgcol img:nth-child(3)
+    {
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    .homeimgcol img:nth-child(4)
+    {
+        position: absolute;
+        bottom: 50px;
+        left: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    .homeimgcol img:nth-child(5)
+    {
+        position: absolute;
+        bottom: 50px;
+        right: 10px;
+        width: 40px;
+        height: 40px;
+    } 
+
+
+}
+
+@media screen and (max-width: 250px)
+{
+    .homecontentcol h1:nth-child(1)
+    {
+        font-size: 20px;
+    }
+    .homecontentcol h1:nth-child(2)
+    {
+        font-size: 35px;
+        letter-spacing: 5px;
+    }
+    .homecontentcol h1:nth-child(3)  
+    {
+        font-size: 15px;
+    }
+    .homecontentcol p
+    {
+        font-size: 10px;
+    }
+    .homecontentcol button
+    {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-size: 10px;
+        letter-spacing: 0px;
+        padding: 0px 0px;
+        width: 50px;
+    }
+
+     .homeimgcol img:nth-child(1)
+    {
+        width: 195px;
+        height: 195px;
+    }
+    .homeimgcol img:nth-child(2)
+    {
+        position: absolute;
+        top:45px;
+        left: 5px;
+        width: 30px;
+        height: 30px;
+    }
+    .homeimgcol img:nth-child(3)
+    {
+        position: absolute;
+        top: 45px;
+        right: 5px;
+        width: 30px;
+        height: 30px;
+    }
+    .homeimgcol img:nth-child(4)
+    {
+        position: absolute;
+        bottom: 45px;
+        left: 5px;
+        width: 30px;
+        height: 30px;
+    }
+    .homeimgcol img:nth-child(5)
+    {
+        position: absolute;
+        bottom: 45px;
+        right: 5px;
+        width: 30px;
+        height: 30px;
+    } 
+
+
+}
+
+@media screen and (max-width: 200px)
+{
+    .homecontentcol h1:nth-child(1)
+    {
+        margin-bottom: 0px;
+        font-size: 15px;
+    }
+    .homecontentcol h1:nth-child(2)
+    {
+        margin-bottom: 0px;
+        font-size: 30px;
+        letter-spacing: 0px;
+    }
+    .homecontentcol h1:nth-child(3)  
+    {
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+    .homecontentcol p
+    {
+        margin-bottom: 0px;
+        font-size: 6px;
+    }
+    .homecontentcol button
+    {
+        margin: 5px;
+        margin-bottom: 5px;
+        font-size: 6px;
+        width: 30px;
+    }
+
+     .homeimgcol img:nth-child(1)
+    {
+        width: 100px;
+        height: 100px;
+    }
+    .homeimgcol img:nth-child(2)
+    {
+        position: absolute;
+        top:35px;
+        left: 2px;
+        padding: 2px;
+        width: 15px;
+        height: 15px;
+    }
+    .homeimgcol img:nth-child(3)
+    {
+        position: absolute;
+        padding: 2px;
+        top: 35px;
+        right: 2px;
+        width: 15px;
+        height: 15px;
+    }
+    .homeimgcol img:nth-child(4)
+    {
+        position: absolute;
+        padding: 2px;
+        bottom: 35px;
+        left: 5px;
+        width: 15px;
+        height: 15px;
+    }
+    .homeimgcol img:nth-child(5)
+    {
+        position: absolute;
+        padding: 2px;
+        bottom: 35px;
+        right: 5px;
+        width: 15px;
+        height: 15px;
+    } 
+
+
+}

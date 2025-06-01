@@ -1,0 +1,101 @@
+.skillbuildcontainer
+{
+    background-color: rgb(46, 46, 30);
+}
+.skillbuildcontainer h1
+{
+    text-align: center;
+}
+.skillbuildrow
+{
+    margin: 10px;
+}
+.skillbuilddiv
+{
+    border-radius: 10px;
+    background-color: rgb(66, 63, 66);
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.3s;
+}
+.skillbuilddiv:hover  
+{
+    transition: 0.3s;
+    background-color: rgb(33, 33, 28);
+}
+.skillbuilddiv:hover img 
+{
+    transition: 0.3s;
+    background-color: rgb(172, 180, 35);
+}
+.skillbuilddiv img
+{
+    background-color: rgb(94, 94, 70);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+.skillbuilddiv  h1
+{
+    font-size: 25px;
+}
+.skillbuilddiv  p
+{
+    text-align: center;
+    margin: 0px;
+    color: rgb(191, 184, 184);
+}
+.qmprow
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 20px;
+}
+.qmpcol
+{
+    transition: 0.3s;
+    background-color: rgb(33, 33, 28);
+    border-radius: 10px;
+    padding: 10px;
+}
+.qmpcol:hover
+{
+    transition: 0.3s;
+    box-shadow: 0px -25px 20px -20px rgba(143, 139, 139, 0.45), 25px 0 20px -20px rgba(143, 139, 139, 0.45), 0px 25px 20px -20px rgba(143, 139, 139, 0.45), -25px 0 20px -20px rgba(143, 139, 139, 0.45);
+}
+.skillbuildqualitydiv, .skillbuildmaintendiv,.skillbuildperformdiv
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.skillbuildqualitydiv img, .skillbuildmaintendiv img,.skillbuildperformdiv img
+{
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(217, 231, 231);
+    border-radius: 50%;
+    padding: 10px;
+   width: 60px;
+   height: 60px; 
+}
+.skillbuildqualitydiv h1,.skillbuildmaintendiv h1,.skillbuildperformdiv h1 
+{
+    color: aliceblue;
+    font-size: 30px;
+}
+.skillbuildqualitydiv p,.skillbuildmaintendiv p,.skillbuildperformdiv p
+{
+    color: rgb(154, 159, 163);
+}

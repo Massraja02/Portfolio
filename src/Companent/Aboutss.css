@@ -1,0 +1,333 @@
+.aboutcontainer
+{
+        min-height: 100vh;
+    padding: 0px;
+    background-color: aqua;
+}
+.aboutcontainer h1
+{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+.aboutimgdiv
+{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutimgdiv img
+{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.aboutcontentdiv
+{   
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.aboutcontenttabsdiv
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    
+}
+.aboutcontenttabsdiv h2
+{
+    margin: 0px;
+    font-size: medium;
+    text-align: center;
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 10px;
+    width: 80px;
+    transition: 0.8s;
+}
+.aboutcontenttabsdiv h2:hover
+{
+    background-color: black;
+    color: white;
+}
+.socialmediadiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialmediadiv ul
+{
+    margin: 0px;
+    padding: 0px;
+     display: flex;
+}
+.socialmediadiv ul li
+{
+    margin: 0px 10px;
+    list-style: none;
+}
+.socialmediadiv svg
+{
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.socialmediadiv .whatsapp svg
+{
+    color:rgb(0, 255, 42);
+    background-color: aliceblue;
+}
+.socialmediadiv .instagram svg
+{
+    color:rgb(228, 64, 95);
+    background-color: aliceblue;
+}
+.socialmediadiv .facebook svg
+{
+    color: rgb(0, 8, 255);
+    background-color: aliceblue;
+}
+.socialmediadiv .twitter svg
+{
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+.socialmediadiv .linkin svg
+{
+    color: rgb(0, 8, 255);
+    background-color: aliceblue;
+}
+.abouttabsrowdiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.showtabs
+{
+    text-align: center;
+    display: block;
+}
+.hidetabs
+{
+    display: none;
+    width: 500px;
+}
+.showtabs h1
+{
+    font-size: 30px;
+}
+.abouttabsinfocarddiv p
+{
+    font-size: 20px;
+}
+
+.abouttabscarddiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+.abouttabscardimgdiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.abouttabscardimgdiv img 
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.abouttabscardcontdiv
+{
+    padding: 5px;
+}
+.abouttabscardcontdiv h1
+{
+    text-align: left;
+    font-size: 30px;
+}
+.abouttabscardcontdiv p
+{
+    text-align: left;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Querry for Small Device */
+
+@media screen and (min-device-width: 1400px)
+{
+    .aboutimgdiv img
+    {
+        width: 650px;
+        height: 650px;
+    }
+
+}
+
+@media screen and (min-device-width:992px) and (max-device-width:1200px)
+{
+    .aboutimgdiv img
+    {
+        width: 400px;
+        height: 400px;
+    }
+    .aboutcontenttabsdiv h2
+    {
+        font-size: 15px;
+        width: 60px;
+    }
+        .showtabs h1
+    {
+        font-size: 30px;
+    }
+            .showtabs p
+    {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-device-width:768px) and (max-device-width:991px)
+{
+    .aboutimgdiv img
+    {
+        width: 400px;
+        height: 400px;
+    }
+    .aboutcontenttabsdiv h2
+    {
+        font-size: 15px;
+        width: 60px;
+    }
+    .showtabs h1
+    {
+        font-size: 24px;
+    }
+        .showtabs p
+    {
+        font-size: 22px;
+    }
+
+}
+@media screen and (min-device-width:575px) and (max-device-width:767px)
+{
+    .aboutimgdiv
+    {
+        order: 2;
+    }
+    .aboutimgdiv img
+    {
+        width: 550px;
+        height: 550px;
+    }
+            .aboutcontenttabsdiv h2
+    {
+        font-size: 15px;
+        width: 60px;
+    }
+}
+@media screen and (max-device-width:574px)
+{
+    .aboutcontenttabsdiv
+    {
+        margin-top: 5px;
+    }
+        .abouttabsrowdiv
+    {
+        margin-top: 10px;
+    }
+        .abouttabsinfocarddiv p
+    {
+        margin-bottom: 8px;
+    }
+        .aboutimgdiv
+    {
+        order: 2;
+    }
+    .aboutimgdiv img
+    {
+        width: 420px;
+        height: 420px;
+    }
+    .aboutcontenttabsdiv h2
+    {
+        width: 60px;
+    }
+        .showtabs h1
+    {
+        font-size: 25px;
+    }
+}
+@media screen and (max-device-width:425px)
+{
+    .aboutimgdiv img
+    {
+        width: 370px;
+        height: 370px;
+    }
+    .showtabs h1
+    {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-device-width:375px)
+{
+  .aboutimgdiv img
+    {
+     width: 300px;
+     height: 300px;
+    }
+        .aboutcontenttabsdiv h2
+    {
+        width: 50px;
+    }
+}
+@media screen and (max-device-width:320px)
+{
+  .aboutimgdiv img
+    {
+     width: 250px;
+     height: 250px;
+    }
+        .aboutcontenttabsdiv h2
+    {
+        border-radius: 7px;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 20px;
+    }
+        .showtabs h1
+    {
+        font-size: 16px;
+    }
+}

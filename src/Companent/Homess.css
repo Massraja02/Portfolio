@@ -1,0 +1,533 @@
+.homecontainer
+{
+    padding: 0px;
+    background-color: rgb(224, 0, 108);
+}
+.homecontentdiv
+{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.homecontentdiv .hello
+{
+    color: #E8D93E;
+    font-size: 60px;
+    padding-left: 30px;
+
+}
+.homecontentdiv .iamraja
+{
+    color: white;
+    font-size: 100px;
+    padding-left: 30px;
+}
+.homecontentdiv .typewritecontent
+{
+    color: aqua;
+    padding-left: 30px;
+    display: flex;
+    gap: 8px;
+    font-size: 50px;
+}
+.homecontentdiv p
+{
+    color: aliceblue;
+    padding-left: 30px;
+}
+.homecontentdiv button
+{
+    background-color: rgb(0, 255, 38);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 0px;
+    height: 40px;
+    margin-left: 30px;
+    width: 100px;
+}
+.imgcol
+{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgboxdiv
+{
+    position: relative;
+    width:500px;
+    height:500px;
+    padding: 5px;
+}
+.imgboxdiv img
+{
+    border: 5px solid black;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.imgboxdiv span
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+.imgboxdiv svg 
+{
+    font-size: 70px;
+}
+.imgboxdiv .react
+{
+    background-color: black;
+    color: aqua;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.imgboxdiv .angular
+{
+    background-color: black;
+    color: rgb(255, 6, 6);
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+.imgboxdiv .java
+{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+.imgboxdiv .python
+{
+    background-color: black;
+    color: rgb(251, 214, 7);
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+}
+
+
+
+
+
+
+/* media querry for XX-Laptop Device */
+
+@media screen and (min-device-width: 1400px)
+{
+    .homecontentdiv .hello
+    {
+        color: #E8D93E;
+        font-size: 60px;
+        padding-left: 30px;
+
+    }
+    .homecontentdiv .iamraja
+    {
+        color: white;
+        font-size: 130px;
+        padding-left: 30px;
+    }
+    .homecontentdiv .typewritecontent
+    {
+        font-size: 55px;
+    }
+    .imgboxdiv
+    {
+        width:650px;
+        height:650px;
+    }
+    .imgboxdiv svg 
+    {
+        font-size: 95px;
+    }
+}
+
+
+/* media querry for X-Laptop Device */
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1399px)
+{
+    .homecontentdiv .typewritecontent
+    {
+        font-size: 45px;
+    }
+    .imgboxdiv
+    {
+        width:510px;
+        height:510px;
+    }
+}
+
+
+/* Media Querry for laptop  device */
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1199px)
+{
+    .homecontentdiv .typewritecontent
+    {
+        font-size: 35px;
+    }
+}
+
+
+/* Media Querry for Tablet  device */
+
+@media screen and (min-device-width: 768px) and (max-device-width: 991px)
+{
+    .homecontentdiv .hello
+    {
+        font-size: 50px;
+    }
+    .homecontentdiv .iamraja
+    {
+        font-size: 80px;
+    }
+    .homecontentdiv .typewritecontent
+    {
+        font-size: 28px;
+    }
+    .homecontentdiv p
+    {
+        font-size: 10px;
+    }
+    .homecontentdiv button
+    {
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        padding: 0px;
+        width: 80px;
+        height: 40px;
+    }
+    .imgboxdiv
+    {
+        width:420px;
+        height:420px;
+    }
+    .imgboxdiv svg 
+    {
+        font-size: 60px;
+    }
+    .imgboxdiv .react
+    {
+        top: 50px;
+        left: 5px;
+    }
+    .imgboxdiv .angular
+    {
+        top: 50px;
+        right: 5px;
+    }
+    .imgboxdiv .java
+    {
+        bottom: 50px;
+        left: 20px;
+    }
+    .imgboxdiv .python
+    {
+        bottom: 50px;
+        right: 20px;
+    }
+}
+
+
+/* Media Querry for Small mobile device */
+
+@media screen and (min-device-width: 576px) and (max-device-width: 767px)
+{
+    .homecontainer
+    {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .homecontentdiv
+    {
+        align-items: center;
+    }
+    .homecontentdiv .hello
+    {
+        padding: 0px;
+        font-size: 50px;
+    }
+    .homecontentdiv .iamraja
+    {
+        padding: 0px;
+        font-size: 90px;
+    }
+    .homecontentdiv .typewritecontent
+    {
+        padding: 0px;
+        font-size: 45px;
+    }
+    .homecontentdiv p
+    {
+        padding: 0px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .homecontentdiv button
+    {
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        padding: 0px;
+        margin-left: 0px;
+        width: 150px;
+        height: 60px;
+    }
+    .imgboxdiv
+    {
+        width:600px;
+        height:600px;
+    }
+    .imgboxdiv svg 
+    {
+        font-size: 90px;
+    }
+    .imgboxdiv .react
+    {
+        top: 50px;
+        left: 22px;
+    }
+    .imgboxdiv .angular
+    {
+        top: 50px;
+        right: 22px;
+    }
+    .imgboxdiv .java
+    {
+        bottom: 50px;
+        left: 28px;
+    }
+    .imgboxdiv .python
+    {
+        bottom: 50px;
+        right: 28px;
+    }
+}
+
+
+/* Media Querry for X-Small mobile device */
+
+@media screen and (max-device-width:575px)
+{
+    .homecontainer
+    {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .homecontentdiv
+    {
+        align-items: center;
+    }
+    .homecontentdiv .hello
+    {
+        padding: 0px;
+        font-size: 40px;
+    }
+    .homecontentdiv .iamraja
+    {
+        padding: 0px;
+        font-size: 70px;
+    }
+    .homecontentdiv .typewritecontent
+    {
+        padding: 0px;
+        font-size: 34px;
+    }
+    .homecontentdiv p
+    {
+        padding: 0px;
+        text-align: center;
+    }
+    .homecontentdiv button
+    {
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        padding: 0px;
+        margin-left: 0px;
+        width: 100px;
+        height: 50px;
+    }
+    .imgboxdiv
+    {
+        width:425px;
+        height:425px;
+    }
+    .imgboxdiv svg 
+    {
+        font-size: 60px;
+    }
+    .imgboxdiv .react
+    {
+        top: 30px;
+        left: 18px;
+    }
+    .imgboxdiv .angular
+    {
+        top: 30px;
+        right: 18px;
+    }
+    .imgboxdiv .java
+    {
+        bottom: 30px;
+        left: 25px;
+    }
+    .imgboxdiv .python
+    {
+        bottom: 30px;
+        right: 25px;
+    }
+}
+
+@media screen and (max-device-width:424px)
+{
+    .homecontentdiv .hello
+    {
+        font-size: 40px;
+    }
+    .homecontentdiv .iamraja
+    {
+        font-size: 50px;
+    }
+    .homecontentdiv .typewritecontent
+    {
+        font-size: 30px;
+    }
+    .imgboxdiv
+    {
+        width:375px;
+        height:375px;
+    }
+    .imgboxdiv svg 
+    {
+        font-size: 50px;
+    }
+    .imgboxdiv .react
+    {
+        top: 30px;
+        left: 10px;
+    }
+    .imgboxdiv .angular
+    {
+        top: 30px;
+        right: 10px;
+    }
+    .imgboxdiv .java
+    {
+        bottom: 30px;
+        left: 20px;
+    }
+    .imgboxdiv .python
+    {
+        bottom: 30px;
+        right: 20px;
+    }
+}
+
+@media screen and (max-device-width:374px)
+{
+    .homecontentdiv .hello
+    {
+        font-size: 30px;
+    }
+    .homecontentdiv .iamraja
+    {
+        font-size: 50px;
+    }
+    .homecontentdiv .typewritecontent
+    {
+        font-size: 25px;
+    }
+    .imgboxdiv
+    {
+        width:320px;
+        height:320px;
+    }
+    .imgboxdiv svg 
+    {
+        font-size: 35px;
+    }
+    .imgboxdiv .react
+    {
+        top: 30px;
+        left: 10px;
+    }
+    .imgboxdiv .angular
+    {
+        top: 30px;
+        right: 10px;
+    }
+    .imgboxdiv .java
+    {
+        bottom: 30px;
+        left: 20px;
+    }
+    .imgboxdiv .python
+    {
+        bottom: 30px;
+        right: 20px;
+    }
+}
+
+@media screen and (max-device-width:319px)
+{
+    .homecontentdiv .hello
+    {
+        font-size: 20px;
+    }
+    .homecontentdiv .iamraja
+    {
+        font-size: 40px;
+    }
+    .homecontentdiv .typewritecontent
+    {
+        font-size: 20px;
+    }
+    .imgboxdiv
+    {
+        width:250px;
+        height:250px;
+    }
+    .imgboxdiv svg 
+    {
+        font-size: 22px;
+    }
+    .imgboxdiv .react
+    {
+        top: 30px;
+        left: 10px;
+    }
+    .imgboxdiv .angular
+    {
+        top: 30px;
+        right: 10px;
+    }
+    .imgboxdiv .java
+    {
+        bottom: 30px;
+        left: 20px;
+    }
+    .imgboxdiv .python
+    {
+        bottom: 30px;
+        right: 20px;
+    }
+}

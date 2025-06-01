@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Jaini&family=Kaushan+Script&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&family=Ultra&display=swap');
+
+.gettouchdiv
+{
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:#ffffff;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.gettouchdiv form
+{
+    display: flex;
+    flex-direction: column;
+}
+.gettouchdiv h1
+{
+    text-align: center;
+}
+.gettouchdiv label
+{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.gettouchdiv input
+{
+    background-color:#E5E5E5;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+   height: 50px;
+    font-size: 20px;
+}
+.gettouchdiv input:focus
+{
+    outline-color: rgb(0, 255, 38);
+}
+.gettouchdiv textarea
+{
+    background-color:#E5E5E5;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    height: 120px;
+    font-size: 20px;
+}
+.gettouchdiv textarea:focus
+{
+    outline-color: rgb(0, 255, 38);
+}
+.gettouchdiv button
+{
+    background-color: rgb(0, 140, 255);
+    color: black;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    height: 40px;
+}
+
+@media screen and (min-width :992px)
+{
+
+    .gettouchcontainer
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .gettouchdiv
+    {
+        width: 500px;
+    }
+    
+}

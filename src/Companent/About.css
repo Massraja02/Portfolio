@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Jaini&family=Kaushan+Script&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&family=Ultra&display=swap');
+
+.aboutcontainer
+{
+    padding: 10px;
+
+    /* background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%); */
+
+}
+.aboutimgdiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.aboutimgdiv
+{
+    width: 460px;
+    height: 460px;
+    border-radius: 20px;
+}
+.aboutimgdiv::before 
+{
+    content: '';
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    background-image: conic-gradient(transparent,transparent,transparent, rgb(41, 237, 116));
+    animation: rotate-border 5s linear infinite;
+} 
+.aboutimgdiv::after
+{
+    content: '';
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    background-image: conic-gradient(transparent,transparent,transparent, rgb(1, 242, 202));
+    animation: rotate-border 5s linear infinite;
+    animation-delay: -3s;
+}
+
+@keyframes rotate-border {
+    0%
+     {
+        transform: rotate(0deg);
+
+    }
+    100%
+     {
+        transform: rotate(360deg);
+
+    }
+} 
+.aboutimgdiv img
+{
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    transition: 0.5s;
+    z-index: 1;
+}
+.aboutimgdiv img:hover
+{
+    transition: 0.5s;
+    padding: 3px;
+}
+.aboutcontentcol 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.aboutcontentcol ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+.aboutcontentcol li
+{
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    color: #ffee00;
+    list-style: none; 
+}
+.aboutcontentcol  li:hover
+{
+    color: #f87575;
+}
+.hidetabs
+{
+    display: none;  
+}
+.abouttabsdiv
+{
+    font-family: "Jaini", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 250px;
+}
+.abouttabsdiv p:nth-child(2)
+{
+    color: #088538ba;
+}
+.abouttabsdiv p:nth-child(3)
+{
+    color:#5cbad7;
+}
+.abouttabsdiv p:nth-child(4)
+{
+     color:#5e5959;
+}
+.abouttabsdiv p:nth-child(6)
+{
+    color: #088538ba;
+}
+.abouttabsdiv p:nth-child(7)
+{
+    color:#5cbad7;
+}
+.abouttabsdiv p:nth-child(8)
+{
+     color:#5e5959;
+}
+.abouttabsdiv ul
+{
+    width:250px ;
+}
+.abouttabsdiv li
+{
+    border: none;
+}
+.abouttabsdiv svg
+{
+    transition: 0.3s;
+}
+.abouttabsdiv svg:hover
+{
+    transition: 0.3s;
+    -webkit-box-shadow: 0px 0px 5px 3px rgb(251, 251, 251);
+    -moz-box-shadow: 0px 0px 5px 3px rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 3px rgb(244, 242, 242);
+}
+.abouttabsdiv .whatsapp
+{
+    color: rgb(25, 255, 8);
+}
+.abouttabsdiv .instagram
+{
+    color: rgb(255, 3, 158);
+}
+.abouttabsdiv .facebook
+{
+    color: rgb(5, 142, 255);
+}
+.abouttabsdiv .twitter
+{
+    color: rgb(255, 255, 255);
+}
+.abouttabsdiv .linkin
+{
+    color: rgb(1, 120, 255);
+}
+
+
+/* Media Querry for tablet Device */
+
+@media screen and (max-width:991px)
+{
+    .aboutimgcol{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutimgcol
+    {
+            order:1 ;
+    }
+    .abouttabsdiv
+    {
+        margin-bottom: 10px;
+    }
+
+}
+
+
+@media screen and (max-width:576px)
+{
+    .abouttabsdiv
+    {
+        margin: 20px 0px 50px 0px;
+    }
+    .aboutimgdiv
+    {
+        width: 360px;
+        height: 360px;
+        border-radius: 20px;
+    }
+    .aboutimgdiv img
+    {
+        width: 350px;
+        height: 350px;
+    }
+
+}
+
+@media screen and (max-width:374px)
+{
+    .abouttabsdiv
+    {
+        margin: 40px 0px 70px 0px; 
+    }
+}
+@media screen and (max-width:325px)
+{
+    .abouttabsdiv
+    {
+        margin: 80px 0px 90px 0px; 
+    }
+}

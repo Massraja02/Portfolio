@@ -1,0 +1,22 @@
+.projectcontainer
+{
+    text-align: center;
+    /* background-color: rgb(106, 106, 109); */
+}
+.projectcontainer img
+{
+    border-radius: 10px;
+    border: 5px solid rgb(250, 250, 250);
+    width: 100%;
+    height:100%;
+    margin-bottom: 20px;
+}
+
+.mySwiper
+{
+    border-radius: 10px;
+    background-color: rgb(78, 78, 78);
+    color: black;
+    width: 500px;
+    height: 500px;
+}
