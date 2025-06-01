@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './Navbar.css'
-import navimg from '../assets/me/homeimg.png'
+import navimg from '../assets/me/homeimg.png'     
+import resumedoc from '../assets/Raja resume.pdf'
 
 function Navbar() {
     const [icons,seticons] = useState(true);
@@ -37,7 +38,7 @@ function Navbar() {
                 </ul>
             </div>
             <div className="col-3 col-sm-2 col-md-2 col-lg-2  resumebtndiv">
-            <a href="src\assets\Raja resume.pdf" download="Resume">  <button className='resumebtn'> Resume </button>   </a>             
+            <a href={resumedoc} download="Resume.pdf">  <button className='resumebtn'> Resume </button>   </a>             
             </div>
         </div>
 
