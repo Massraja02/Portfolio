@@ -4,6 +4,7 @@ import { FaArrowUp } from "react-icons/fa6";
 import { useEffect, useState } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import img from '../assets/me/homeimg.png'
 
 function Home() {
 
@@ -65,7 +66,7 @@ function Home() {
 
             <div data-aos="zoom-in" className="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 homeimgcol">
                 <div className='homeimgdiv'>
-                <img src="./src/assets/me/homeimg.png" alt=""/>
+                <img src={img} alt=""/>
 
                 <img src="../assets/svg/react-svgrepo-com.svg" alt="" />
                 <img src="../assets/svg/node-js-svgrepo-com.svg" alt="" />
