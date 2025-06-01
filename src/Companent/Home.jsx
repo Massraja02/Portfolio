@@ -5,6 +5,10 @@ import { useEffect, useState } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import img from '../assets/me/homeimg.png'
+import reactimg from '../assets/svg/react-svgrepo-com.svg'
+import nodeimg from '../assets/svg/node-js-svgrepo-com.svg'
+import pythonimg from '../assets/svg/python-svgrepo-com.svg'
+import angularimg from '../assets/svg/angular-svgrepo-com.svg'
 
 function Home() {
 
@@ -68,10 +72,10 @@ function Home() {
                 <div className='homeimgdiv'>
                 <img src={img} alt=""/>
 
-                <img src="../assets/svg/react-svgrepo-com.svg" alt="" />
-                <img src="../assets/svg/node-js-svgrepo-com.svg" alt="" />
-                <img src="../assets/svg/python-svgrepo-com.svg" alt="" />
-                <img src="../assets/svg/angular-svgrepo-com.svg" alt="" />
+                <img src={reactimg} alt="" />
+                <img src={nodeimg} alt="" />
+                <img src={pythonimg} alt="" />
+                <img src={angularimg} alt="" />
                 </div>
             </div>
         </div>
