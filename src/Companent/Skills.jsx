@@ -1,14 +1,14 @@
 import  './Skills.css';
 
 import { useEffect, useState } from 'react';
-import reactimg '../assets/svg/react-svgrepo-com.svg'
-import angularimg '../assets/svg/angular-svgrepo-com.svg'
-import nodeimg '../assets/svg/node-js-svgrepo-com.svg'
-import phpimg '../assets/svg/php-svgrepo-com.svg'
-import sqlimg '../assets/svg/sql-database-sql-azure-svgrepo-com.svg'
-import javaimg '../assets/svg/java-svgrepo-com.svg'
-import pythonimg '../assets/svg/python-svgrepo-com.svg'
-import bootstrap '../assets/svg/bootstrap-fill-svgrepo-com.svg'
+import reactimg from '../assets/svg/react-svgrepo-com.svg'
+import angularimg from '../assets/svg/angular-svgrepo-com.svg'
+import nodeimg from '../assets/svg/node-js-svgrepo-com.svg'
+import phpimg from '../assets/svg/php-svgrepo-com.svg'
+import sqlimg from '../assets/svg/sql-database-sql-azure-svgrepo-com.svg'
+import javaimg from '../assets/svg/java-svgrepo-com.svg'
+import pythonimg from '../assets/svg/python-svgrepo-com.svg'
+import bootstrap from '../assets/svg/bootstrap-fill-svgrepo-com.svg'
 
 import Aos from 'aos';
 import 'aos/dist/aos.css'
