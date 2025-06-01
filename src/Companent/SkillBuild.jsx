@@ -65,7 +65,7 @@ function SkillBuild() {
             </div>
             <div  data-aos="fade-up" className="col-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-5  mx-5 qmpcol">
                 <div className="skillbuildperformdiv skillbuilddivss">
-                    <img src={performimg} alt=""/>
+                    <img src={perforimg} alt=""/>
                     <h1>Performance</h1>
                     <p>Software that focuses on ensuring the system's efficiency, responsiveness, optimization,stability, performance and user experience</p>
                 </div>
