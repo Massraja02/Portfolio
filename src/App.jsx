@@ -10,7 +10,7 @@ import SkillBuild from './Companent/SkillBuild'
 import Skills from './Companent/Skills'
 
 import { useEffect, useState } from 'react'
-import Loader from './Companent/loader'
+import Loader from './Companent/Loader'
 
 
 function App() {
